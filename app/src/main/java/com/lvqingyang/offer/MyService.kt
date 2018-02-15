@@ -69,6 +69,7 @@ class MyService: Service() {
                 if (BuildConfig.DEBUG) Log.d("MyService", "onStartCommand: $num")
                 Thread.sleep(1000)
             }
+
         }
         return super.onStartCommand(intent, flags, startId)
     }
